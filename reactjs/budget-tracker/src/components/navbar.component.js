@@ -29,13 +29,13 @@ class Navbar extends Component {
     handleSignout() {
         console.log("hello");
         AuthService.signout();
-        window.location.href='/';
+        window.location.href= process.env.PUBLIC_URL + '/';
     }
 
     render() {
         return (
             <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" href={process.env.PUBLIC_URL + '/'}>
                 <img src={logo} width="30" height="30" className="mr-1 d-inline-block align-top" alt=""/>
                     Budget Tracker
                 </a>
@@ -50,17 +50,17 @@ class Navbar extends Component {
                         {
                             AuthService.isLoggedIn() &&
                             <li className="nav-item">
-                                <a className="nav-link" href="/dashboard">Dashboard</a>
+                                <a className="nav-link" href={process.env.PUBLIC_URL + '/dashboard'}>Dashboard</a>
                             </li>
                         }    
                         {
                             AuthService.isLoggedIn() &&
                         <li className="nav-item">
-                            <a className="nav-link" href="/search">Search</a>
+                            <a className="nav-link" href={process.env.PUBLIC_URL + '/search'}>Search</a>
                         </li>
                         }
                         <li className="nav-item">
-                            <a className="nav-link" href="/about">About</a>
+                            <a className="nav-link" href={process.env.PUBLIC_URL + '/about'}>About</a>
                         </li>
                     </ul>
 
@@ -69,7 +69,7 @@ class Navbar extends Component {
                         {
                             AuthService.isLoggedIn() &&
                             <li className="nav-item">
-                                <a className="nav-link" href="/new">
+                                <a className="nav-link" href={process.env.PUBLIC_URL + '/new'}>
                                     <PlusCircleIcon className="mr-2" size={16} />
                                     Add Transaction
                                 </a>
@@ -95,7 +95,7 @@ class Navbar extends Component {
                                 </div>
                             </li> :
                             <li className="nav-item">
-                                <a className="nav-link" href="/signin">
+                                <a className="nav-link" href={process.env.PUBLIC_URL + '/signin'}>
                                     <SignInIcon className="mr-2" size={16} />
                                     Sign In
                                 </a>
