@@ -37,7 +37,7 @@ import java.util.*;
  */
 public class Server {
 
-    public static final int SOCKET = 8000;
+    public static final int SOCKET = 8080;
     public static final long ttlMillis = 604800000l; //7days
     public static final SecretKey key = Keys.secretKeyFor(SignatureAlgorithm.HS256);
     public static final Serializer<Map<String,?>> serializer = new GsonSerializer();
