@@ -1,0 +1,17 @@
+.card .transac {
+    height: 5rem;
+}
+
+.lil-pad {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.float-right {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.zero-line-height {
+    line-height: 128%;
+}

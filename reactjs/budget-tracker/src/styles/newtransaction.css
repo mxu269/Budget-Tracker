@@ -1,0 +1,9 @@
+#inputType {
+    border-color: transparent;
+}
+
+#viewTranTextArea {
+    resize: none;
+    border: none;
+    background: transparent;
+}

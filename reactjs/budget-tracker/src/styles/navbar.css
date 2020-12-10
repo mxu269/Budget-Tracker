@@ -1,0 +1,19 @@
+body {
+  padding-top: 70px;
+}
+
+.hht {
+  border-color: aquamarine;
+  background-color: green;
+}
+
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  position: flex;
+  bottom: 0;
+  width: 100%;
+}

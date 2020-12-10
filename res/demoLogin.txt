@@ -1,0 +1,25 @@
+
+<This .txt is used as reference for grader for testing purposes>
+<This file contains 20 users that are written by the data wrangler placed in the .csv>
+<! contents in .csv file may vary  if application is being used to manipulate content>
+
+1)  userID:C000001 password:"thisPasswordMayNotBeStrong100"
+2)  userID:C000002 password:"Superman's Cape"
+3)  userID:C000003 password:"lazyMan100"
+4)  userID:C000004 password:"zebraOnTheGo7000"
+5)  userID:C000005 password:"LLonepp$$"
+6)  userID:C000006 password:"$$%TTO"
+7)  userID:C000007 password:"HumanZ!"
+8)  userID:C000008 password:"iAmHighInTheSky"
+9)  userID:C000009 password:"SamIsReal"
+10) userID:C000010 password:"SamuelJackson"
+11) userID:C000011 password:"Mr.MadMan"
+12) userID:C000012 password:"IAMATHOME"
+13) userID:C000013 password:"ThisIsNotATest"
+14) userID:C000014 password:"33445566"
+15) userID:C000015 password:"100020"
+16) userID:C000016 password:"7676767676"
+17) userID:C000017 password:"8888888888"
+18) userID:C000018 password:"version?"
+19) userID:C000019 password:"testing"
+20) userID:C000020 password:"999999"
