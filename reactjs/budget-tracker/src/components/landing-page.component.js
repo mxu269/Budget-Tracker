@@ -29,7 +29,7 @@ class Landing extends Component {
                         Sign Up
                 </button>
             </div>
-        ) : <Redirect to="/dashboard" />
+        ) : <Redirect to={process.env.PUBLIC_URL + '/dashboard'} />
     }
 }
 

@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6851771-0daf-49aa-9437-9cd35874200c" name="Default Changelist" comment="somwthing">
-      <change beforePath="$PROJECT_DIR$/java/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactjs/budget-tracker/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/budget-tracker/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reactjs/budget-tracker/src/components/landing-page.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/reactjs/budget-tracker/src/components/landing-page.component.js" afterDir="false" />
     </list>
-    <list id="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" name="Revert &quot;Update Server.java&quot;" comment="Revert &quot;Update Server.java&quot;&#10;&#10;This reverts commit 0174fc44">
-      <change beforePath="$PROJECT_DIR$/java/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/java/src/Server.java" afterDir="false" />
-    </list>
+    <list id="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" name="Revert &quot;Update Server.java&quot;" comment="Revert &quot;Update Server.java&quot;&#10;&#10;This reverts commit 0174fc44" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,19 +34,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="a07185bd-049f-4652-a7e0-105d9df44581" />
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/java/src/Server.java">
-      <ranges>
-        <range start1="9" end1="10" start2="9" end2="12" changelist="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" />
-        <range start1="20" end1="24" start2="22" end2="22" changelist="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" />
-        <range start1="25" end1="26" start2="23" end2="23" changelist="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" />
-        <range start1="29" end1="30" start2="26" end2="26" changelist="05142fbe-78ac-413b-9e0d-a52bd1bbdd51" />
-        <range start1="43" end1="44" start2="39" end2="40" changelist="f6851771-0daf-49aa-9437-9cd35874200c" />
-        <range start1="54" end1="94" start2="50" end2="51" changelist="f6851771-0daf-49aa-9437-9cd35874200c" />
-        <range start1="110" end1="111" start2="67" end2="68" changelist="f6851771-0daf-49aa-9437-9cd35874200c" />
-      </ranges>
-    </file>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -66,7 +53,6 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -89,17 +75,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -115,6 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607598533370</updated>
       <workItem from="1607598534444" duration="4278000" />
+      <workItem from="1607609428589" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="changed to https">
       <created>1607600914417</created>
@@ -156,6 +132,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

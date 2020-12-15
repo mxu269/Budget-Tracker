@@ -100,7 +100,7 @@ class Login extends Component {
                         )
                     }
 
-                    <a href="/signup">
+                    <a href={process.env.PUBLIC_URL + '/signup'}>
                         Create new account
                 </a>
 

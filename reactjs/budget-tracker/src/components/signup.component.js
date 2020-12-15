@@ -114,7 +114,7 @@ class Signup extends Component {
                         )
                 }    
                 
-                <a href="/signin">
+                <a href={process.env.PUBLIC_URL + '/signin'}>
                     Already have an account?
                 </a>
 
